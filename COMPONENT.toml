@@ -3,7 +3,7 @@ name = "SigmaOS-arch-replaces"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-replaces component"
+description = "SigmaOS component repository"
 upstream = []
 
 [contract]
