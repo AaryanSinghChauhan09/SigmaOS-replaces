@@ -7,3 +7,4 @@ license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-replaces"
 
 [dependencies]
+thiserror = "2"

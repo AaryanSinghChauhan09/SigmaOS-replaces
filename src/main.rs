@@ -1,35 +1,8 @@
-use std::env;
-use log::{info, warn, error, debug};
-use anyhow::Result;
-//! SigmaOS-arch-replaces - SigmaOS Component
+//! arch-replaces component binary.
 //!
-//! This component is part of the SigmaOS operating system,
-//! inspired by Arch Linux and Debian architecture.
+//! Component logic lives in the library crate (`src/lib.rs`); this binary is
+//! a thin entry point kept minimal so the crate builds and tests run.
 
-use std::process;
-
-fn main() -> Result<()> { {
-    println!("SigmaOS SigmaOS-arch-replaces");
-    println!("Version: 0.1.0");
-    println!("Inspired by: Arch Linux and Debian");
-    println!();
-    println!("This component provides essential functionality for SigmaOS.");
-    println!("Following modular design principles from Arch Linux");
-    println!("and stability focus from Debian.");
-}
-    Ok(())
-
-#[derive(Debug, Clone)]
-struct Config {
-    verbose: bool,
-    dry_run: bool,
-}
-
-impl Config {
-    fn from_env() -> Self {
-        Config {
-            verbose: env::var("VERBOSE").is_ok(),
-            dry_run: env::var("DRY_RUN").is_ok(),
-        }
-    }
+fn main() {
+    println!("SigmaOS {} v{}", env!("CARGO_PKG_NAME"), env!("CARGO_PKG_VERSION"));
 }
