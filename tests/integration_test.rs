@@ -1,4 +1,4 @@
-use arch_replaces::Component;
+use sigmaos_replaces::Component;
 
 #[test]
 fn test_component_new_aaa() {

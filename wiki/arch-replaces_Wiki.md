@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-replaces Component Wiki
+# SigmaOS-SigmaOS-replaces Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-replaces provides SigmaOS component repository for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-replaces provides SigmaOS component repository for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-replaces Abstraction
-- Fail-Fast on SigmaOS-arch-replaces Initialization Errors
-- Deterministic SigmaOS-arch-replaces Setup
-- Clear Abstraction Over SigmaOS-arch-replaces APIs
-- Composition over Inheritance for SigmaOS-arch-replaces extensions
+- SigmaOS-replaces Abstraction
+- Fail-Fast on SigmaOS-replaces Initialization Errors
+- Deterministic SigmaOS-replaces Setup
+- Clear Abstraction Over SigmaOS-replaces APIs
+- Composition over Inheritance for SigmaOS-replaces extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-replaces follows a SigmaOS-arch-replaces pattern:
-- **SigmaOS-arch-replaces Core**: Provides SigmaOS-arch-replaces support, SigmaOS-arch-replaces management, and SigmaOS-arch-replaces tracking
-- **Management**: Supports SigmaOS-arch-replaces management, SigmaOS-arch-replaces configuration, and SigmaOS-arch-replaces lifecycle
-- **Tracking**: Supports SigmaOS-arch-replaces status, SigmaOS-arch-replaces tracking, and SigmaOS-arch-replaces lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-replaces configurations or unsupported SigmaOS-arch-replaces types
+SigmaOS-SigmaOS-replaces follows a SigmaOS-replaces pattern:
+- **SigmaOS-replaces Core**: Provides SigmaOS-replaces support, SigmaOS-replaces management, and SigmaOS-replaces tracking
+- **Management**: Supports SigmaOS-replaces management, SigmaOS-replaces configuration, and SigmaOS-replaces lifecycle
+- **Tracking**: Supports SigmaOS-replaces status, SigmaOS-replaces tracking, and SigmaOS-replaces lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-replaces configurations or unsupported SigmaOS-replaces types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-replaces by given configuration
--  - Register a SigmaOS-arch-replaces by given name
--  - Get SigmaOS-arch-replaces status and SigmaOS-arch-replaces availability
--  - Track SigmaOS-arch-replaces management and SigmaOS-arch-replaces tracking
-- Error types for SigmaOS-arch-replaces failure scenarios or unsupported SigmaOS-arch-replaces types
+-  - Manage a SigmaOS-replaces by given configuration
+-  - Register a SigmaOS-replaces by given name
+-  - Get SigmaOS-replaces status and SigmaOS-replaces availability
+-  - Track SigmaOS-replaces management and SigmaOS-replaces tracking
+- Error types for SigmaOS-replaces failure scenarios or unsupported SigmaOS-replaces types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-replaces configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-replaces init, SigmaOS-arch-replaces management)
-3. **Assert**: Verify the expected SigmaOS-arch-replaces results
+1. **Arrange**: Set up test environment with specific SigmaOS-replaces configuration
+2. **Act**: Execute the code under test (SigmaOS-replaces init, SigmaOS-replaces management)
+3. **Assert**: Verify the expected SigmaOS-replaces results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-replaces initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-replaces failure scenarios
-- Unit tests provided for SigmaOS-arch-replaces management and configuration
-- Integration tests for full SigmaOS-arch-replaces system with actual SigmaOS-arch-replaces integration
+- SigmaOS-replaces initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-replaces failure scenarios
+- Unit tests provided for SigmaOS-replaces management and configuration
+- Integration tests for full SigmaOS-replaces system with actual SigmaOS-replaces integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-replaces types
-- Expand SigmaOS-arch-replaces capabilities (SigmaOS-arch-replaces features, SigmaOS-arch-replaces configurations, SigmaOS-arch-replaces tracking)
-- Add lifecycle features (SigmaOS-arch-replaces tracking, SigmaOS-arch-replaces lifecycle, SigmaOS-arch-replaces propagation)
-- Create integration tests with actual SigmaOS-arch-replaces systems and SigmaOS-arch-replaces integration
-- Implement SigmaOS-arch-replaces persistence and SigmaOS-arch-replaces state management
+- Add support for additional SigmaOS-replaces types
+- Expand SigmaOS-replaces capabilities (SigmaOS-replaces features, SigmaOS-replaces configurations, SigmaOS-replaces tracking)
+- Add lifecycle features (SigmaOS-replaces tracking, SigmaOS-replaces lifecycle, SigmaOS-replaces propagation)
+- Create integration tests with actual SigmaOS-replaces systems and SigmaOS-replaces integration
+- Implement SigmaOS-replaces persistence and SigmaOS-replaces state management

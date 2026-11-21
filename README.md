@@ -1,4 +1,4 @@
-# SigmaOS-arch-replaces
+# SigmaOS-replaces
 
 SigmaOS component repository
 

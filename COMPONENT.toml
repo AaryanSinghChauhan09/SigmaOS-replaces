@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-replaces"
+name = "SigmaOS-replaces"
 tier = 2
 stability = "scaffold"
 language = "rust"
